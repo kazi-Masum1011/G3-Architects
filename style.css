@@ -213,6 +213,43 @@ nav {
     font-size: 21px;
 }
 
+/* more add */
+.more-add-main {
+    width: 80%;
+    padding: 32px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #d4cfcf2e;
+    text-align: center;
+}
+.add-titel{
+    font-size: 30px;
+    padding: 45px 0;
+}
+.more-add-continer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23px;
+}
+
+.more-add-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-bottom: 12px;
+}
+.more-add-box i{
+    padding-top: 12px;
+    font-size: 40px;
+    color: #424242;
+}
+.more-add-box h2{
+    padding: 17px 0;
+}
+.more-add-box p{
+color: #727272;
+}
+
 /* some facts  */
 .facts-main {
     padding-top: 130px;
@@ -402,46 +439,60 @@ nav {
         width: 311px;
         height: 405px;
     }
+
     .Experience-btn {
         position: unset;
         margin-top: 15px;
         padding: 8px 20px;
+        margin-bottom: 25px;
     }
+
     .Experience-btn h1 {
         font-size: 21px;
     }
-    
+
     .Experience-btn p {
         font-size: 12px;
     }
+
     /* some facts */
-    .facts-main{
+    .facts-main {
         padding-top: 60px;
     }
-    .facts-text{
+
+    .facts-text {
         padding: 18px 0 35px 0;
     }
-    .facts-box-continer{
+
+    .facts-box-continer {
         flex-direction: column;
         gap: 30px;
     }
+
     /* Sponspors */
-    .our-sponspor-main{
+    .our-sponspor-main {
         padding-top: 65px;
     }
-    .our-sponspor-details{
+
+    .our-sponspor-details {
         width: 80%;
     }
-    .our-sponspor-logo{
+
+    .our-sponspor-logo {
         flex-direction: column;
         gap: 25px;
     }
+
     /* footer */
-    .footer-section{
+    .footer-section {
         padding: 60px 0;
     }
-    .footer-text{
-        
+
+    .footer-text {
+
         font-size: 18px;
+    }
+    .more-add-continer{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
